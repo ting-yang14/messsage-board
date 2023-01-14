@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/messageBoard.css" />
+    <title>Message Board</title>
+  </head>
+  <body>
+    <h1>圖文留言板</h1>
+    <label for="message">文字內容</label>
+    <input type="text" name="message" id="message" required /><br />
+    <label for="image">圖片檔案</label>
+    <input
+      type="file"
+      name="image"
+      id="image"
+      accept="image/*"
+      required
+    /><br />
+    <button id="submit">送出</button>
+    <hr id="formEnd" />
+    <script src="/js/messageBoard.js"></script>
+  </body>
+</html>
